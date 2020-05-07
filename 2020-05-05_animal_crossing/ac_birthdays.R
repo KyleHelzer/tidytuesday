@@ -129,9 +129,9 @@ plot <- villagers %>%
         panel.background = element_blank(),
         panel.grid.major = element_line(color = "#444444"),
         text = element_text(family = "Bahnschrift", color = "#AAAAAA", face = "bold"),
-        plot.title = element_text(size = 26, color = "#FFFFFF", hjust = 0.5, margin = margin(b = 20)),
-        axis.title.x = element_text(color = "#FFFFFF", margin = margin(t = 20, b = 10)),
-        axis.title.y = element_text(color = "#FFFFFF", margin = margin(r = 20, l = 10)),
+        plot.title = element_text(size = 26, color = "#FFFFFF", hjust = 0.5),
+        axis.title.x = element_text(color = "#FFFFFF",),
+        axis.title.y = element_text(color = "#FFFFFF",),
         axis.text = element_text(family = "Bahnschrift", color = "#CCCCCC", face = "bold"),
         axis.line = element_blank(),
         axis.ticks = element_line(color = "#444444")
