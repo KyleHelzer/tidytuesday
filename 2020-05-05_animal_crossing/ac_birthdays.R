@@ -142,7 +142,7 @@ ggdraw() +
     draw_plot(plot) +
     draw_image(villagers$url[villagers$name == "Mott"], x = 0.474, y = 0.15, width = 0.12, height = 0.12)
 
-ggsave("bday1000.png", dpi = 400)
+ggsave("ac_birthdays.png", dpi = 400)
 
 
 # villagers %>% 
