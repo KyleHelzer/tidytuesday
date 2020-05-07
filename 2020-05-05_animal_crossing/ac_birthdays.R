@@ -120,7 +120,7 @@ plot <- villagers %>%
     annotate("curve", x = as.Date("2020-09-21"), y = 2.9, xend = as.Date("2020-09-30"), yend = 2.95, curvature = 0.5, color = "#FFFFFF", arrow = arrow(length = unit(0.1, "inches"))) +
     # no birthday text and arrows
     annotate("label", x = as.Date("2020-03-15"), y = 0.5, label = "There are 5 days with no birthdays", color = "#FFFFFF", fill = "#111111", family = "Bahnschrift", fontface = "bold", size = 5) +
-    annotate("text", x = no_birthdays$day - 6, y = 0.15, label = format(no_birthdays$day, "%b %d"), color = "#FFFFFF", angle = -45, family = "Bahnschrift") +
+    annotate("text", x = no_birthdays$day - 6, y = 0.18, label = format(no_birthdays$day, "%b %d"), color = "#FFFFFF", angle = -45, family = "Bahnschrift") +
     # author
     annotate("text", x = as.Date("2020-12-01"), y = 2.9, label = "Graphic: @kylehelzer", color = "#AAAAAA", family = "Bahnschrift") +
     
