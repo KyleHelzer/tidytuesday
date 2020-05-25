@@ -1,3 +1,7 @@
+# Author: Kyle Helzer
+# TidyTuesday 2020-05-26
+# Cocktails
+
 library(tidyverse)
 
 # get the data
